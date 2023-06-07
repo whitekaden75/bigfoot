@@ -1,0 +1,159 @@
+<!---
+Kaden White
+IS 201
+April 11th
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A Little About Bigfoot</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+    <!---Links to the other pages-->
+    <div class="toplink">
+      <a id="top" href="../index.html">Home</a> |
+      <a href="bigfoot.html">Resume</a> | <a href="#">About Me</a><br /><br />
+    </div>
+    <div class="container1">
+      <div class="tim">
+        <h4>This Page Is All About Me</h4>
+        What to do if you see <a href="#run">me</a>
+        <p>
+          I love it when people take videos of me,<br />
+          the link below is a link to one of the first <br />
+          videos ever taken of me <br />
+          <!---link to youtube video of bigfoot-->
+          <a
+            href="https://www.youtube.com/watch?v=lOxuRIfFs0w"
+            target="_blank"
+            title="The Roger Patteson Bigfoot Footage"
+            >The Roger Patteson Bigfoot Footage</a
+          >
+        </p>
+      </div>
+      <div class="mav">
+        <p>
+          Google Defines me as <br />
+          "noun: <br />
+          Bigfoot; plural noun: <br />
+          Bigfeet. a large, hairy, ape-like creature resembling a yeti, <br />
+          supposedly found in northwestern America. <br />
+          <br />
+          wikipedia says this about me <br />
+          "Bigfoot, also commonly referred to as Sasquatch, <br />
+          is an ape-like cryptid alleged by cryptozoologists <br />
+          and enthusiasts to inhabit the forests of North America."
+        </p>
+      </div>
+    </div>
+
+    <div class="photos">
+      <h5>My photo gallary</h5>
+      <img
+        src="../images/bigfoot in yellowstone.jpg"
+        alt="Bigfoot in Yellowstone"
+        width="500" />
+      <img
+        src="../images/bigfoot with dog.jpeg"
+        alt="Bigfoot in Park"
+        width="500" />
+      <img
+        src="../images/ohio bigfoot.jpeg"
+        alt="Bigfoot in Ohio"
+        width="500" />
+      <img src="../images/bigfoot bae.jpeg" alt="Bigfoot Bae" width="500" />
+      <img
+        src="../images/Salt fork state park.webp"
+        alt="Salt fork Bigfoot"
+        width="500" />
+      <img
+        src="/images/beef jerky bigfoot.jpeg"
+        alt="Beef jerky bigfoot"
+        width="500" />
+    </div>
+    <!---photos of beautiful bigfoot-->
+
+    <!--lists within lists-->
+    <p id="run">
+      What to do if you see me or one of my siblings in different situations
+    </p>
+    <ul>
+      <li>
+        You're hunting in a thick forest
+        <ol>
+          <li>Don't shoot us we won't harm you.</li>
+          <li>If you are hidden, stay hidden.</li>
+          <li>
+            If you are stalking a deer, don't worry, <br />
+            we ate it all ready.
+          </li>
+          <li>Take a crappy photo of us.</li>
+        </ol>
+      </li>
+      <li>
+        You're fishing on a lake
+        <ol>
+          <li>Stay in your boat</li>
+          <li>Don't worry, we will scare the fish toward you</li>
+          <li>
+            Remember, if we throw rocks at you its just cause <br />
+            we are joking with you
+          </li>
+          <li>Take a crappy photo of us</li>
+        </ol>
+      </li>
+      <li>
+        One of my family starts eating your pet food from your porch
+        <ol>
+          <li>When we are feeding stay inside</li>
+          <li>Keep your pet safe as well or they might get eaten</li>
+          <li>Consider moving to the city</li>
+          <li>Take a crappy photo of us</li>
+        </ol>
+      </li>
+    </ul>
+    back to <a href="#top">top</a>
+  <!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+</body>
+</html>

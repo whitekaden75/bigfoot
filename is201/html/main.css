@@ -1,0 +1,201 @@
+/* body {
+    change font size
+    font-size: 10-15
+} 
+you can make all your p tags the same
+p{
+
+}
+nav ol{
+    any ol inside of your nav tag
+}
+*/
+/* burtonbyu.com for hexidecimal colors */
+/* unsplash.com is a bunch of free photos where you don't need to go to jail */
+
+/* the main page css */
+.main div {
+  position: absolute;
+}
+.main {
+  color: black;
+  background-image: url(../images/forest\ background.jpg);
+  background-size: cover;
+}
+.main a {
+  color: coral;
+  text-decoration: none;
+}
+.main a:hover {
+  background-color: darkgreen;
+  text-decoration: underline;
+}
+
+.main_text {
+  color: coral;
+}
+/* .main p {
+  color: coral;
+ } */
+.h1 {
+  border-color: #333;
+  top: 2rem;
+  left: 50%;
+  height: 8rem;
+  width: 25rem;
+  transform: translate(-50%);
+  background-color: bisque;
+  border: 0.1rem solid black;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: coral;
+  text-align: center;
+}
+
+.h2 {
+  top: 10rem;
+  left: 50%;
+  height: 10rem;
+  width: 25rem;
+  transform: translate(-50%);
+  background-color: bisque;
+  border: 0.1rem solid black;
+  text-align: center;
+}
+.here {
+  top: 25.1rem;
+  left: 50%;
+  height: 3rem;
+  transform: translate(-50%);
+  background-color: bisque;
+  border: 0.1rem solid black;
+}
+.main_map {
+  margin: auto;
+  top: 28.1rem;
+  left: 50%;
+  transform: translate(-50%);
+}
+/* bigfoot html css */
+.toplink {
+  background-color: cornsilk;
+  border: 0.1rem solid black;
+  top: 0rem;
+  left: 0rem;
+  right: 0rem;
+  height: 2rem;
+  position: absolute;
+  z-index: 2;
+}
+.tif a {
+  text-decoration: none;
+}
+
+.opl {
+  top: 2.1rem;
+  left: 0;
+  width: 6rem;
+  height: 60rem;
+  border: 0.1rem solid black;
+  position: absolute;
+  text-align: center;
+  background-color: cornsilk;
+  z-index: 2;
+}
+.bigfoot {
+  position: absolute;
+  top: 2.1rem;
+  left: 6.1rem;
+  height: 32rem;
+  right: 10rem;
+  text-align: center;
+}
+.farm {
+  position: absolute;
+  top: 34.1rem;
+  left: 6.1rem;
+  text-align: center;
+  right: 10rem;
+  height: 28.1rem;
+}
+.list {
+  position: absolute;
+  top: 2.1rem;
+  right: 0;
+  width: 9.9rem;
+  height: 60rem;
+  border: 0.1rem solid black;
+  background-color: cornsilk;
+  z-index: 2;
+}
+.job {
+  position: fixed;
+  bottom: 0rem;
+  right: 0;
+  left: 0;
+  height: 3rem;
+  border: 0.1rem solid black;
+  text-align: center;
+  background-color: cornsilk;
+  z-index: 2;
+}
+.hi {
+  background-color: darkkhaki;
+  z-index: 1;
+}
+/* about me page */
+.tim {
+  position: absolute;
+  left: 0;
+  right: 50%;
+  top: 2.1rem;
+  text-align: center;
+  border-right: 0.1rem solid black;
+}
+.mav {
+  position: absolute;
+  top: 2.1rem;
+  left: 50%;
+  right: 0;
+  text-align: center;
+}
+.aboutme h5 {
+  position: absolute;
+  top: 35vw;
+  left: 50%;
+  transform: translate(-50%);
+}
+.yoo {
+  position: absolute;
+  top: 40vw;
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.photo {
+  width: 45vw;
+  padding: 2rem;
+}
+.lii {
+  position: absolute;
+  top: 220vw;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.aboutme {
+  font-size: 2vw;
+}
+.qwe {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 42rem;
+  height: 4rem;
+  text-align: center;
+  border-top: 0.1rem solid black;
+  background-color: cornsilk;
+}
+.mebackground {
+  background-size: cover;
+  background-image: url(../images/cloudforest.png);
+}
